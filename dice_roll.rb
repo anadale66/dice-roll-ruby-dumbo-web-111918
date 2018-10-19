@@ -5,7 +5,8 @@
 
 def roll
   dice = [1,2,3,4,5,6]
-  dice.each {|x| return rand(x).to_s}
+  dice.each do |x| return rand(x)
+  end
 end
 
 
